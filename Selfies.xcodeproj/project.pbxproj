@@ -16,6 +16,47 @@
 		04F7A6011B59782F002F159D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F7A5FF1B59782F002F159D /* LaunchScreen.storyboard */; };
 		04F7A60C1B59782F002F159D /* SelfiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7A60B1B59782F002F159D /* SelfiesTests.m */; };
 		04F7A6171B597830002F159D /* SelfiesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7A6161B597830002F159D /* SelfiesUITests.m */; };
+		04F7A6261B597B3A002F159D /* InstagramController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7A6251B597B3A002F159D /* InstagramController.m */; };
+		04F7A6291B597DAC002F159D /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7A6281B597DAC002F159D /* CollectionViewCell.m */; };
+		04F7A62C1B597F38002F159D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7A62B1B597F38002F159D /* DetailViewController.m */; };
+		04F7A6511B598208002F159D /* INSCaption.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7A6321B598208002F159D /* INSCaption.m */; };
+		04F7A6521B598208002F159D /* INSComments.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7A6341B598208002F159D /* INSComments.m */; };
+		04F7A6531B598208002F159D /* INSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7A6361B598208002F159D /* INSData.m */; };
+		04F7A6541B598208002F159D /* INSData2.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7A6381B598208002F159D /* INSData2.m */; };
+		04F7A6551B598208002F159D /* INSFrom.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7A63A1B598208002F159D /* INSFrom.m */; };
+		04F7A6561B598208002F159D /* INSImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7A63C1B598208002F159D /* INSImages.m */; };
+		04F7A6571B598208002F159D /* INSLikes.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7A63E1B598208002F159D /* INSLikes.m */; };
+		04F7A6581B598208002F159D /* INSLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7A6401B598208002F159D /* INSLocation.m */; };
+		04F7A6591B598208002F159D /* INSLowResolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7A6421B598208002F159D /* INSLowResolution.m */; };
+		04F7A65A1B598208002F159D /* INSMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7A6441B598208002F159D /* INSMeta.m */; };
+		04F7A65B1B598208002F159D /* INSPagination.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7A6461B598208002F159D /* INSPagination.m */; };
+		04F7A65C1B598208002F159D /* INSPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7A6481B598208002F159D /* INSPosition.m */; };
+		04F7A65D1B598208002F159D /* INSStandardResolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7A64A1B598208002F159D /* INSStandardResolution.m */; };
+		04F7A65E1B598208002F159D /* INSThumbnail.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7A64C1B598208002F159D /* INSThumbnail.m */; };
+		04F7A65F1B598208002F159D /* INSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7A64E1B598208002F159D /* INSUser.m */; };
+		04F7A6601B598208002F159D /* INSUsersInPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7A6501B598208002F159D /* INSUsersInPhoto.m */; };
+		04F7A6791B599247002F159D /* License Agreement for SF UI Font.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 04F7A6631B599247002F159D /* License Agreement for SF UI Font.rtf */; };
+		04F7A67A1B599247002F159D /* SF-UI-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04F7A6641B599247002F159D /* SF-UI-Display-Black.otf */; };
+		04F7A67B1B599247002F159D /* SF-UI-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04F7A6651B599247002F159D /* SF-UI-Display-Bold.otf */; };
+		04F7A67C1B599247002F159D /* SF-UI-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04F7A6661B599247002F159D /* SF-UI-Display-Heavy.otf */; };
+		04F7A67D1B599247002F159D /* SF-UI-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04F7A6671B599247002F159D /* SF-UI-Display-Light.otf */; };
+		04F7A67E1B599247002F159D /* SF-UI-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04F7A6681B599247002F159D /* SF-UI-Display-Medium.otf */; };
+		04F7A67F1B599247002F159D /* SF-UI-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04F7A6691B599247002F159D /* SF-UI-Display-Regular.otf */; };
+		04F7A6801B599247002F159D /* SF-UI-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04F7A66A1B599247002F159D /* SF-UI-Display-Semibold.otf */; };
+		04F7A6811B599247002F159D /* SF-UI-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04F7A66B1B599247002F159D /* SF-UI-Display-Thin.otf */; };
+		04F7A6821B599247002F159D /* SF-UI-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04F7A66C1B599247002F159D /* SF-UI-Display-Ultralight.otf */; };
+		04F7A6831B599247002F159D /* SF-UI-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04F7A66D1B599247002F159D /* SF-UI-Text-Bold.otf */; };
+		04F7A6841B599247002F159D /* SF-UI-Text-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04F7A66E1B599247002F159D /* SF-UI-Text-BoldItalic.otf */; };
+		04F7A6851B599247002F159D /* SF-UI-Text-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04F7A66F1B599247002F159D /* SF-UI-Text-Heavy.otf */; };
+		04F7A6861B599247002F159D /* SF-UI-Text-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04F7A6701B599247002F159D /* SF-UI-Text-HeavyItalic.otf */; };
+		04F7A6871B599247002F159D /* SF-UI-Text-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04F7A6711B599247002F159D /* SF-UI-Text-Italic.otf */; };
+		04F7A6881B599247002F159D /* SF-UI-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04F7A6721B599247002F159D /* SF-UI-Text-Light.otf */; };
+		04F7A6891B599247002F159D /* SF-UI-Text-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04F7A6731B599247002F159D /* SF-UI-Text-LightItalic.otf */; };
+		04F7A68A1B599247002F159D /* SF-UI-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04F7A6741B599247002F159D /* SF-UI-Text-Medium.otf */; };
+		04F7A68B1B599247002F159D /* SF-UI-Text-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04F7A6751B599247002F159D /* SF-UI-Text-MediumItalic.otf */; };
+		04F7A68C1B599247002F159D /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04F7A6761B599247002F159D /* SF-UI-Text-Regular.otf */; };
+		04F7A68D1B599247002F159D /* SF-UI-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04F7A6771B599247002F159D /* SF-UI-Text-Semibold.otf */; };
+		04F7A68E1B599247002F159D /* SF-UI-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04F7A6781B599247002F159D /* SF-UI-Text-SemiboldItalic.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +94,67 @@
 		04F7A6121B597830002F159D /* SelfiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F7A6161B597830002F159D /* SelfiesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelfiesUITests.m; sourceTree = "<group>"; };
 		04F7A6181B597830002F159D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F7A6241B597B3A002F159D /* InstagramController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramController.h; sourceTree = "<group>"; };
+		04F7A6251B597B3A002F159D /* InstagramController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramController.m; sourceTree = "<group>"; };
+		04F7A6271B597DAC002F159D /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		04F7A6281B597DAC002F159D /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		04F7A62A1B597F38002F159D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		04F7A62B1B597F38002F159D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		04F7A6301B598208002F159D /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
+		04F7A6311B598208002F159D /* INSCaption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INSCaption.h; sourceTree = "<group>"; };
+		04F7A6321B598208002F159D /* INSCaption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INSCaption.m; sourceTree = "<group>"; };
+		04F7A6331B598208002F159D /* INSComments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INSComments.h; sourceTree = "<group>"; };
+		04F7A6341B598208002F159D /* INSComments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INSComments.m; sourceTree = "<group>"; };
+		04F7A6351B598208002F159D /* INSData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INSData.h; sourceTree = "<group>"; };
+		04F7A6361B598208002F159D /* INSData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INSData.m; sourceTree = "<group>"; };
+		04F7A6371B598208002F159D /* INSData2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INSData2.h; sourceTree = "<group>"; };
+		04F7A6381B598208002F159D /* INSData2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INSData2.m; sourceTree = "<group>"; };
+		04F7A6391B598208002F159D /* INSFrom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INSFrom.h; sourceTree = "<group>"; };
+		04F7A63A1B598208002F159D /* INSFrom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INSFrom.m; sourceTree = "<group>"; };
+		04F7A63B1B598208002F159D /* INSImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INSImages.h; sourceTree = "<group>"; };
+		04F7A63C1B598208002F159D /* INSImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INSImages.m; sourceTree = "<group>"; };
+		04F7A63D1B598208002F159D /* INSLikes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INSLikes.h; sourceTree = "<group>"; };
+		04F7A63E1B598208002F159D /* INSLikes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INSLikes.m; sourceTree = "<group>"; };
+		04F7A63F1B598208002F159D /* INSLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INSLocation.h; sourceTree = "<group>"; };
+		04F7A6401B598208002F159D /* INSLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INSLocation.m; sourceTree = "<group>"; };
+		04F7A6411B598208002F159D /* INSLowResolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INSLowResolution.h; sourceTree = "<group>"; };
+		04F7A6421B598208002F159D /* INSLowResolution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INSLowResolution.m; sourceTree = "<group>"; };
+		04F7A6431B598208002F159D /* INSMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INSMeta.h; sourceTree = "<group>"; };
+		04F7A6441B598208002F159D /* INSMeta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INSMeta.m; sourceTree = "<group>"; };
+		04F7A6451B598208002F159D /* INSPagination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INSPagination.h; sourceTree = "<group>"; };
+		04F7A6461B598208002F159D /* INSPagination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INSPagination.m; sourceTree = "<group>"; };
+		04F7A6471B598208002F159D /* INSPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INSPosition.h; sourceTree = "<group>"; };
+		04F7A6481B598208002F159D /* INSPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INSPosition.m; sourceTree = "<group>"; };
+		04F7A6491B598208002F159D /* INSStandardResolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INSStandardResolution.h; sourceTree = "<group>"; };
+		04F7A64A1B598208002F159D /* INSStandardResolution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INSStandardResolution.m; sourceTree = "<group>"; };
+		04F7A64B1B598208002F159D /* INSThumbnail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INSThumbnail.h; sourceTree = "<group>"; };
+		04F7A64C1B598208002F159D /* INSThumbnail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INSThumbnail.m; sourceTree = "<group>"; };
+		04F7A64D1B598208002F159D /* INSUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INSUser.h; sourceTree = "<group>"; };
+		04F7A64E1B598208002F159D /* INSUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INSUser.m; sourceTree = "<group>"; };
+		04F7A64F1B598208002F159D /* INSUsersInPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INSUsersInPhoto.h; sourceTree = "<group>"; };
+		04F7A6501B598208002F159D /* INSUsersInPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INSUsersInPhoto.m; sourceTree = "<group>"; };
+		04F7A6631B599247002F159D /* License Agreement for SF UI Font.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "License Agreement for SF UI Font.rtf"; sourceTree = "<group>"; };
+		04F7A6641B599247002F159D /* SF-UI-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Black.otf"; sourceTree = "<group>"; };
+		04F7A6651B599247002F159D /* SF-UI-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Bold.otf"; sourceTree = "<group>"; };
+		04F7A6661B599247002F159D /* SF-UI-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Heavy.otf"; sourceTree = "<group>"; };
+		04F7A6671B599247002F159D /* SF-UI-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Light.otf"; sourceTree = "<group>"; };
+		04F7A6681B599247002F159D /* SF-UI-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Medium.otf"; sourceTree = "<group>"; };
+		04F7A6691B599247002F159D /* SF-UI-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Regular.otf"; sourceTree = "<group>"; };
+		04F7A66A1B599247002F159D /* SF-UI-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Semibold.otf"; sourceTree = "<group>"; };
+		04F7A66B1B599247002F159D /* SF-UI-Display-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Thin.otf"; sourceTree = "<group>"; };
+		04F7A66C1B599247002F159D /* SF-UI-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Ultralight.otf"; sourceTree = "<group>"; };
+		04F7A66D1B599247002F159D /* SF-UI-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Bold.otf"; sourceTree = "<group>"; };
+		04F7A66E1B599247002F159D /* SF-UI-Text-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-BoldItalic.otf"; sourceTree = "<group>"; };
+		04F7A66F1B599247002F159D /* SF-UI-Text-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Heavy.otf"; sourceTree = "<group>"; };
+		04F7A6701B599247002F159D /* SF-UI-Text-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-HeavyItalic.otf"; sourceTree = "<group>"; };
+		04F7A6711B599247002F159D /* SF-UI-Text-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Italic.otf"; sourceTree = "<group>"; };
+		04F7A6721B599247002F159D /* SF-UI-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Light.otf"; sourceTree = "<group>"; };
+		04F7A6731B599247002F159D /* SF-UI-Text-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-LightItalic.otf"; sourceTree = "<group>"; };
+		04F7A6741B599247002F159D /* SF-UI-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Medium.otf"; sourceTree = "<group>"; };
+		04F7A6751B599247002F159D /* SF-UI-Text-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-MediumItalic.otf"; sourceTree = "<group>"; };
+		04F7A6761B599247002F159D /* SF-UI-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Regular.otf"; sourceTree = "<group>"; };
+		04F7A6771B599247002F159D /* SF-UI-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Semibold.otf"; sourceTree = "<group>"; };
+		04F7A6781B599247002F159D /* SF-UI-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +207,16 @@
 			children = (
 				04F7A5F11B59782F002F159D /* AppDelegate.h */,
 				04F7A5F21B59782F002F159D /* AppDelegate.m */,
+				04F7A6271B597DAC002F159D /* CollectionViewCell.h */,
+				04F7A6281B597DAC002F159D /* CollectionViewCell.m */,
+				04F7A62A1B597F38002F159D /* DetailViewController.h */,
+				04F7A62B1B597F38002F159D /* DetailViewController.m */,
+				04F7A6241B597B3A002F159D /* InstagramController.h */,
+				04F7A6251B597B3A002F159D /* InstagramController.m */,
 				04F7A5F41B59782F002F159D /* ViewController.h */,
 				04F7A5F51B59782F002F159D /* ViewController.m */,
+				04F7A6611B599229002F159D /* Resources */,
+				04F7A62F1B598208002F159D /* Instagram JSON Objects */,
 				04F7A5F71B59782F002F159D /* Main.storyboard */,
 				04F7A5FD1B59782F002F159D /* Assets.xcassets */,
 				04F7A5FF1B59782F002F159D /* LaunchScreen.storyboard */,
@@ -141,6 +251,84 @@
 				04F7A6181B597830002F159D /* Info.plist */,
 			);
 			path = SelfiesUITests;
+			sourceTree = "<group>";
+		};
+		04F7A62F1B598208002F159D /* Instagram JSON Objects */ = {
+			isa = PBXGroup;
+			children = (
+				04F7A6301B598208002F159D /* DataModels.h */,
+				04F7A6311B598208002F159D /* INSCaption.h */,
+				04F7A6321B598208002F159D /* INSCaption.m */,
+				04F7A6331B598208002F159D /* INSComments.h */,
+				04F7A6341B598208002F159D /* INSComments.m */,
+				04F7A6351B598208002F159D /* INSData.h */,
+				04F7A6361B598208002F159D /* INSData.m */,
+				04F7A6371B598208002F159D /* INSData2.h */,
+				04F7A6381B598208002F159D /* INSData2.m */,
+				04F7A6391B598208002F159D /* INSFrom.h */,
+				04F7A63A1B598208002F159D /* INSFrom.m */,
+				04F7A63B1B598208002F159D /* INSImages.h */,
+				04F7A63C1B598208002F159D /* INSImages.m */,
+				04F7A63D1B598208002F159D /* INSLikes.h */,
+				04F7A63E1B598208002F159D /* INSLikes.m */,
+				04F7A63F1B598208002F159D /* INSLocation.h */,
+				04F7A6401B598208002F159D /* INSLocation.m */,
+				04F7A6411B598208002F159D /* INSLowResolution.h */,
+				04F7A6421B598208002F159D /* INSLowResolution.m */,
+				04F7A6431B598208002F159D /* INSMeta.h */,
+				04F7A6441B598208002F159D /* INSMeta.m */,
+				04F7A6451B598208002F159D /* INSPagination.h */,
+				04F7A6461B598208002F159D /* INSPagination.m */,
+				04F7A6471B598208002F159D /* INSPosition.h */,
+				04F7A6481B598208002F159D /* INSPosition.m */,
+				04F7A6491B598208002F159D /* INSStandardResolution.h */,
+				04F7A64A1B598208002F159D /* INSStandardResolution.m */,
+				04F7A64B1B598208002F159D /* INSThumbnail.h */,
+				04F7A64C1B598208002F159D /* INSThumbnail.m */,
+				04F7A64D1B598208002F159D /* INSUser.h */,
+				04F7A64E1B598208002F159D /* INSUser.m */,
+				04F7A64F1B598208002F159D /* INSUsersInPhoto.h */,
+				04F7A6501B598208002F159D /* INSUsersInPhoto.m */,
+			);
+			path = "Instagram JSON Objects";
+			sourceTree = "<group>";
+		};
+		04F7A6611B599229002F159D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04F7A6621B599247002F159D /* SF-UI */,
+			);
+			name = Resources;
+			path = "Instagram JSON Objects";
+			sourceTree = "<group>";
+		};
+		04F7A6621B599247002F159D /* SF-UI */ = {
+			isa = PBXGroup;
+			children = (
+				04F7A6631B599247002F159D /* License Agreement for SF UI Font.rtf */,
+				04F7A6641B599247002F159D /* SF-UI-Display-Black.otf */,
+				04F7A6651B599247002F159D /* SF-UI-Display-Bold.otf */,
+				04F7A6661B599247002F159D /* SF-UI-Display-Heavy.otf */,
+				04F7A6671B599247002F159D /* SF-UI-Display-Light.otf */,
+				04F7A6681B599247002F159D /* SF-UI-Display-Medium.otf */,
+				04F7A6691B599247002F159D /* SF-UI-Display-Regular.otf */,
+				04F7A66A1B599247002F159D /* SF-UI-Display-Semibold.otf */,
+				04F7A66B1B599247002F159D /* SF-UI-Display-Thin.otf */,
+				04F7A66C1B599247002F159D /* SF-UI-Display-Ultralight.otf */,
+				04F7A66D1B599247002F159D /* SF-UI-Text-Bold.otf */,
+				04F7A66E1B599247002F159D /* SF-UI-Text-BoldItalic.otf */,
+				04F7A66F1B599247002F159D /* SF-UI-Text-Heavy.otf */,
+				04F7A6701B599247002F159D /* SF-UI-Text-HeavyItalic.otf */,
+				04F7A6711B599247002F159D /* SF-UI-Text-Italic.otf */,
+				04F7A6721B599247002F159D /* SF-UI-Text-Light.otf */,
+				04F7A6731B599247002F159D /* SF-UI-Text-LightItalic.otf */,
+				04F7A6741B599247002F159D /* SF-UI-Text-Medium.otf */,
+				04F7A6751B599247002F159D /* SF-UI-Text-MediumItalic.otf */,
+				04F7A6761B599247002F159D /* SF-UI-Text-Regular.otf */,
+				04F7A6771B599247002F159D /* SF-UI-Text-Semibold.otf */,
+				04F7A6781B599247002F159D /* SF-UI-Text-SemiboldItalic.otf */,
+			);
+			path = "SF-UI";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +398,7 @@
 				TargetAttributes = {
 					04F7A5EA1B59782F002F159D = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 46PXCYRCS9;
 					};
 					04F7A6061B59782F002F159D = {
 						CreatedOnToolsVersion = 7.0;
@@ -246,9 +435,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F7A68D1B599247002F159D /* SF-UI-Text-Semibold.otf in Resources */,
+				04F7A67A1B599247002F159D /* SF-UI-Display-Black.otf in Resources */,
 				04F7A6011B59782F002F159D /* LaunchScreen.storyboard in Resources */,
+				04F7A6891B599247002F159D /* SF-UI-Text-LightItalic.otf in Resources */,
+				04F7A67F1B599247002F159D /* SF-UI-Display-Regular.otf in Resources */,
+				04F7A67D1B599247002F159D /* SF-UI-Display-Light.otf in Resources */,
+				04F7A6821B599247002F159D /* SF-UI-Display-Ultralight.otf in Resources */,
+				04F7A6871B599247002F159D /* SF-UI-Text-Italic.otf in Resources */,
+				04F7A6811B599247002F159D /* SF-UI-Display-Thin.otf in Resources */,
+				04F7A67E1B599247002F159D /* SF-UI-Display-Medium.otf in Resources */,
 				04F7A5FE1B59782F002F159D /* Assets.xcassets in Resources */,
+				04F7A68B1B599247002F159D /* SF-UI-Text-MediumItalic.otf in Resources */,
+				04F7A68C1B599247002F159D /* SF-UI-Text-Regular.otf in Resources */,
+				04F7A6831B599247002F159D /* SF-UI-Text-Bold.otf in Resources */,
+				04F7A6791B599247002F159D /* License Agreement for SF UI Font.rtf in Resources */,
+				04F7A68A1B599247002F159D /* SF-UI-Text-Medium.otf in Resources */,
+				04F7A67B1B599247002F159D /* SF-UI-Display-Bold.otf in Resources */,
+				04F7A68E1B599247002F159D /* SF-UI-Text-SemiboldItalic.otf in Resources */,
+				04F7A6851B599247002F159D /* SF-UI-Text-Heavy.otf in Resources */,
+				04F7A67C1B599247002F159D /* SF-UI-Display-Heavy.otf in Resources */,
 				04F7A5F91B59782F002F159D /* Main.storyboard in Resources */,
+				04F7A6861B599247002F159D /* SF-UI-Text-HeavyItalic.otf in Resources */,
+				04F7A6841B599247002F159D /* SF-UI-Text-BoldItalic.otf in Resources */,
+				04F7A6801B599247002F159D /* SF-UI-Display-Semibold.otf in Resources */,
+				04F7A6881B599247002F159D /* SF-UI-Text-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,10 +484,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F7A6541B598208002F159D /* INSData2.m in Sources */,
+				04F7A65C1B598208002F159D /* INSPosition.m in Sources */,
+				04F7A65A1B598208002F159D /* INSMeta.m in Sources */,
+				04F7A6291B597DAC002F159D /* CollectionViewCell.m in Sources */,
 				04F7A5F61B59782F002F159D /* ViewController.m in Sources */,
 				04F7A5F31B59782F002F159D /* AppDelegate.m in Sources */,
+				04F7A6561B598208002F159D /* INSImages.m in Sources */,
+				04F7A65F1B598208002F159D /* INSUser.m in Sources */,
 				04F7A5F01B59782F002F159D /* main.m in Sources */,
+				04F7A65E1B598208002F159D /* INSThumbnail.m in Sources */,
+				04F7A6531B598208002F159D /* INSData.m in Sources */,
 				04F7A5FC1B59782F002F159D /* Selfies.xcdatamodeld in Sources */,
+				04F7A6521B598208002F159D /* INSComments.m in Sources */,
+				04F7A6571B598208002F159D /* INSLikes.m in Sources */,
+				04F7A6601B598208002F159D /* INSUsersInPhoto.m in Sources */,
+				04F7A6261B597B3A002F159D /* InstagramController.m in Sources */,
+				04F7A62C1B597F38002F159D /* DetailViewController.m in Sources */,
+				04F7A6581B598208002F159D /* INSLocation.m in Sources */,
+				04F7A6591B598208002F159D /* INSLowResolution.m in Sources */,
+				04F7A6551B598208002F159D /* INSFrom.m in Sources */,
+				04F7A65D1B598208002F159D /* INSStandardResolution.m in Sources */,
+				04F7A65B1B598208002F159D /* INSPagination.m in Sources */,
+				04F7A6511B598208002F159D /* INSCaption.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +597,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -404,7 +634,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -415,7 +645,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Selfies/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DAJ.Selfies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,7 +658,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Selfies/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DAJ.Selfies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -500,6 +734,7 @@
 				04F7A61D1B597830002F159D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04F7A61E1B597830002F159D /* Build configuration list for PBXNativeTarget "SelfiesTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +743,7 @@
 				04F7A6201B597830002F159D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04F7A6211B597830002F159D /* Build configuration list for PBXNativeTarget "SelfiesUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +752,7 @@
 				04F7A6231B597830002F159D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
